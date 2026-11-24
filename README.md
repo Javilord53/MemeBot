@@ -7,6 +7,28 @@ Meme Bot is a Discord bot built with Python using the discord.py library. The bo
 This project was created to learn Python programming, Discord bot development, and API integration. The bot listens for user commands and retrieves random memes from the Meme API.
 
 When a user types the $meme command, the bot sends a request to the API, retrieves a random meme, and posts it in the Discord channel.
+# DiscordBot
+
+## Requeriments
+
+You need to have Python installed. The project dependencies are listed in `requirements.txt`.
+
+## Instalación
+
+Open a terminal in the project folder and run:
+
+```bash
+py -m pip install -r requirements.txt
+```
+
+## Configuration and execution 
+
+Configure your Discord token in `bot.py` ad execute the bot. DONT'T SHARE OR PUBLIR YOUR REAL TOKEN:
+
+```bash
+py bot.py
+```
+
 
 # Features
 Fetches random memes from a public API
